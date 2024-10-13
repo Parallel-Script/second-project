@@ -1,0 +1,58 @@
+/* CreateApiStyle.css */
+
+.main-add {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .container-add {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+  }
+  
+  span {
+    display: block;
+    margin-bottom: 5px;
+    color: #333333;
+    font-weight: bold;
+  }
+  
+  input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #dddddd;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+  
+  .btn-success {
+    background-color: #4caf50;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .btn-success:hover {
+    background-color: #45a049;
+  }
+  
+  .back-btn {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .back-btn:hover {
+    background-color: #555;
+  }
+  
